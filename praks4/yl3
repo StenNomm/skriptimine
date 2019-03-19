@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+#abiks bussi ekskursiooni korraldajatele#
+#
+#
+read -p "kui palju on reisijaid kokku: " reisjaid
+read -p "kui palju on bussis kohti: " bussis
+xb='expr $reisijaid \/ $bussis
+xp='expr $xb \+ '
+if (($reisijaid % $bussis)) == 0))
+then
+       echo "vaja on tellida $xb bussi"
+else
+       echo "vaja tellida $xp bussi"
+fi
+#
+#lõpp
