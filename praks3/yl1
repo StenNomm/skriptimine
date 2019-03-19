@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+#Kuupäev
+echo -n "Today is " # ilma reavahetuseta
+date +"%A, %B %d, %y # näitab päeva kuud aastat
+echo -n "time is " # ilma reavahetuseta
+date +"%T" # näitab keelaaega
+echo # tühi rida
+echo -n "Calendar of " # tekst ilma reavahetuseta
+cal # näitan kalendrit
+#
+# skripti lõpp
