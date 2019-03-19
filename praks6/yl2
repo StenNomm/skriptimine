@@ -1,0 +1,16 @@
+#!bin/bash
+#
+#see skript on abiks bussi reisi korraldamisel
+#
+#
+read -p "kui palju on reisjaid kokku" reisijaid" reisijad
+read -p "kui palju on bussis kohti" bussis
+xb=`expr $reisija \/ $bussis`
+xp=`expr $xb \+1`
+if(($reisijad % $bussis == 0 ))
+then
+     echo "vaja on tellida $xb bussi "
+else
+     echo "vaja on tellida $xp bussi "
+fi
+#
