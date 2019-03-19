@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+#see skript tuvastab kas sisetatud arv on paarisarv
+#
+read -p "palun sisestage siia täisarv: " arv
+if (( $arv % 2 == 0))
+then
+       echo "see on paaris arv"
+else
+      echo "see on paaritu arv"
+fi
+#
+#
