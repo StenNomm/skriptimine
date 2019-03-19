@@ -1,0 +1,16 @@
+* root kasutajana:
+installi - apt get install git
+* tavakasutaja
+
+a) seadista - määra kasutajanimi, email, editor
+
+
+
+b) loo kataloog, kus hakkad skriptima 
+mkdir skriptimine
+c)sisiene antud kausta 
+cd skritpimine
+
+d) tekita lokaalne repositoorium git spsteemi jaoks antud kasutas
+git init
+
