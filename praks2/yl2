@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+#yl2
+#
+echo "Sten Nõmm" # väljastab nime ja läheb uuele reale
+echo "ISP118" # väljastab õppegrupi ja läheb uuele reale
+echo "antud aine on väga huvitav" # väljastab kirjelduse ja läheb uuele reale
+echo "praegune mulje on üpris hea edasijoudmine pole keeruline" # väljastab kirjelduse ja läheb uuele reale
+#
+#skripti lõpp
+
