@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+#reisi planeerimine
+#
+#
+echo "P 0, E 1, T 2, K 3, N 4, R 5, L 6, P 7
+echo "kuna planeerite ära sõita"
+read sõita
+echo "mitu ööpäeva olete ära"
+read päevad
+x=$(($sõit + $x))
+echo "tagasi jõuate $tagasi"
+#
+#
