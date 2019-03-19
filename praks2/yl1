@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+#tervitusskript
+#
+echo -n "Tere, " #väljastada ilma reavahetuseta tere
+echo -n "User" # väljastada ilma reavahetuseta User
+echo "!" # väljastab ! ja teeb reavahetuse
+
+
+#
+#skripti lõpp
