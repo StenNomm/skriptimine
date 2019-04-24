@@ -1,0 +1,27 @@
+#!/bin/bash
+#
+read -p "sisesta aeg: " aeg
+read -p "sisesta nimi: " kasutaja
+
+if [[ $aeg -ge 6 ]] && [[ $aeg -le 11 ]]
+then
+      echo "hommikust!"
+      echo "tere $kasutaja"
+elif [[ $aeg -ge 12 ]] && [[ $awwwg -le 17 ]]
+then
+      echo "terve päevast!"
+      echo "tere päevast $kasutaja!"
+elif [[ $aeg -ge 18 ]] && [[ $aeg -le 21 ]]
+then
+      echo "Õhtust!"
+      echo "tere õhtust $kasutaja"
+elif [[ $aeg -ge 22 ]] && [[ $aeg -le 24 ]]
+then
+      echo "head ööd!"
+      echo "head ööd $kasutaja!"
+elif [[ $aeg -ge 1 ]] && [[ $aeg -le 5 ]]
+then
+      echo "head ööd"
+      echo "head ööd $kasutaja"
+fi
+#
